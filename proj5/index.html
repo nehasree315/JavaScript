@@ -1,0 +1,19 @@
+<html>
+<head>
+  <title>Sorry 100 Times</title>
+</head>
+<body>
+  <p id="output"></p>
+
+  <script>
+    const outputElement = document.getElementById("output");
+    let sorryText = "";
+
+    for (let i = 0; i < 100; i++) {
+      sorryText += "sorry<br>";
+    }
+
+    outputElement.innerHTML = sorryText;
+  </script>
+</body>
+</html>
